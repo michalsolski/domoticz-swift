@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108129B2614915900A12E76 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 0108129A2614915900A12E76 /* Quick */; };
+		010812B3261491D000A12E76 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 010812B2261491D000A12E76 /* Quick */; };
+		010812B5261491D600A12E76 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 010812B4261491D600A12E76 /* Quick */; };
+		010812C42614926D00A12E76 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 010812C32614926D00A12E76 /* Nimble */; };
+		010812DC2614932C00A12E76 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 010812DB2614932C00A12E76 /* Nimble */; };
+		010812DE2614933000A12E76 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 010812DD2614933000A12E76 /* Nimble */; };
+		01129F5826133FA2001770CA /* DomoticzIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F5726133FA2001770CA /* DomoticzIOSApp.swift */; };
+		01129F5A26133FA2001770CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F5926133FA2001770CA /* ContentView.swift */; };
+		01129F5C26133FA3001770CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01129F5B26133FA3001770CA /* Assets.xcassets */; };
+		01129F5F26133FA3001770CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01129F5E26133FA3001770CA /* Preview Assets.xcassets */; };
+		01129F6A26133FA3001770CA /* DomoticzIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F6926133FA3001770CA /* DomoticzIOSTests.swift */; };
+		01129F7526133FA3001770CA /* DomoticzIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F7426133FA3001770CA /* DomoticzIOSUITests.swift */; };
+		01129F7A26133FA3001770CA /* DomoticzIOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 01129F7926133FA3001770CA /* DomoticzIOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		01129F7F26133FA4001770CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01129F7E26133FA4001770CA /* Assets.xcassets */; };
+		01129F8626133FA4001770CA /* DomoticzIOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 01129F8526133FA4001770CA /* DomoticzIOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		01129F8B26133FA4001770CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F8A26133FA4001770CA /* ContentView.swift */; };
+		01129F8D26133FA4001770CA /* DomoticzIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F8C26133FA4001770CA /* DomoticzIOSApp.swift */; };
+		01129F9126133FA5001770CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01129F9026133FA5001770CA /* Assets.xcassets */; };
+		01129FF3261342F0001770CA /* DomoticzWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129FDA26134285001770CA /* DomoticzWatchTests.swift */; };
+		0112A01A26134495001770CA /* DomoticzSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0112A01926134495001770CA /* DomoticzSwift */; };
+		01E66DE2261347FE00E53DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01129F8A26133FA4001770CA /* ContentView.swift */; };
+		01E66DED2613481700E53DA4 /* DomoticzSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 01E66DEC2613481700E53DA4 /* DomoticzSwift */; };
+		01E66DEF2613482200E53DA4 /* DomoticzSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 01E66DEE2613482200E53DA4 /* DomoticzSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01129F6626133FA3001770CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01129F4C26133FA2001770CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01129F5326133FA2001770CA;
+			remoteInfo = DomoticzIOS;
+		};
+		01129F7126133FA3001770CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01129F4C26133FA2001770CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01129F5326133FA2001770CA;
+			remoteInfo = DomoticzIOS;
+		};
+		01129F7B26133FA3001770CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01129F4C26133FA2001770CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01129F7826133FA3001770CA;
+			remoteInfo = "DomoticzIOS WatchKit App";
+		};
+		01129F8726133FA4001770CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01129F4C26133FA2001770CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01129F8426133FA4001770CA;
+			remoteInfo = "DomoticzIOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01129F9B26133FA5001770CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				01129F8626133FA4001770CA /* DomoticzIOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F9F26133FA5001770CA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				01129F7A26133FA3001770CA /* DomoticzIOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01129F5426133FA2001770CA /* DomoticzIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomoticzIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01129F5726133FA2001770CA /* DomoticzIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticzIOSApp.swift; sourceTree = "<group>"; };
+		01129F5926133FA2001770CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01129F5B26133FA3001770CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01129F5E26133FA3001770CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01129F6026133FA3001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01129F6526133FA3001770CA /* DomoticzIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomoticzIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01129F6926133FA3001770CA /* DomoticzIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticzIOSTests.swift; sourceTree = "<group>"; };
+		01129F6B26133FA3001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01129F7026133FA3001770CA /* DomoticzIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomoticzIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01129F7426133FA3001770CA /* DomoticzIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticzIOSUITests.swift; sourceTree = "<group>"; };
+		01129F7626133FA3001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01129F7926133FA3001770CA /* DomoticzIOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DomoticzIOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01129F7E26133FA4001770CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01129F8026133FA4001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01129F8526133FA4001770CA /* DomoticzIOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DomoticzIOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01129F8A26133FA4001770CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01129F8C26133FA4001770CA /* DomoticzIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticzIOSApp.swift; sourceTree = "<group>"; };
+		01129F9026133FA5001770CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01129F9526133FA5001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01129FDA26134285001770CA /* DomoticzWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticzWatchTests.swift; sourceTree = "<group>"; };
+		01129FDF261342BC001770CA /* DomoticzWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomoticzWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01129FE3261342BC001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01129F5126133FA2001770CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0112A01A26134495001770CA /* DomoticzSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F6226133FA3001770CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0108129B2614915900A12E76 /* Quick in Frameworks */,
+				010812C42614926D00A12E76 /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F6D26133FA3001770CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010812B3261491D000A12E76 /* Quick in Frameworks */,
+				010812DC2614932C00A12E76 /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F8226133FA4001770CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E66DED2613481700E53DA4 /* DomoticzSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129FDC261342BC001770CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010812DE2614933000A12E76 /* Nimble in Frameworks */,
+				010812B5261491D600A12E76 /* Quick in Frameworks */,
+				01E66DEF2613482200E53DA4 /* DomoticzSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01129F4B26133FA2001770CA = {
+			isa = PBXGroup;
+			children = (
+				01129F5626133FA2001770CA /* DomoticzIOS */,
+				01129FAE26133FFD001770CA /* DomoticzWatch */,
+				01129FD326134222001770CA /* Tests */,
+				01129F5526133FA2001770CA /* Products */,
+				0112A01826134495001770CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01129F5526133FA2001770CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01129F5426133FA2001770CA /* DomoticzIOS.app */,
+				01129F6526133FA3001770CA /* DomoticzIOSTests.xctest */,
+				01129F7026133FA3001770CA /* DomoticzIOSUITests.xctest */,
+				01129F7926133FA3001770CA /* DomoticzIOS WatchKit App.app */,
+				01129F8526133FA4001770CA /* DomoticzIOS WatchKit Extension.appex */,
+				01129FDF261342BC001770CA /* DomoticzWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01129F5626133FA2001770CA /* DomoticzIOS */ = {
+			isa = PBXGroup;
+			children = (
+				01129F5726133FA2001770CA /* DomoticzIOSApp.swift */,
+				01129F5926133FA2001770CA /* ContentView.swift */,
+				01129F5B26133FA3001770CA /* Assets.xcassets */,
+				01129F6026133FA3001770CA /* Info.plist */,
+				01129F5D26133FA3001770CA /* Preview Content */,
+			);
+			path = DomoticzIOS;
+			sourceTree = "<group>";
+		};
+		01129F5D26133FA3001770CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01129F5E26133FA3001770CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01129F6826133FA3001770CA /* DomoticzIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				01129F6926133FA3001770CA /* DomoticzIOSTests.swift */,
+				01129F6B26133FA3001770CA /* Info.plist */,
+			);
+			path = DomoticzIOSTests;
+			sourceTree = "<group>";
+		};
+		01129F7326133FA3001770CA /* DomoticzIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01129F7426133FA3001770CA /* DomoticzIOSUITests.swift */,
+				01129F7626133FA3001770CA /* Info.plist */,
+			);
+			path = DomoticzIOSUITests;
+			sourceTree = "<group>";
+		};
+		01129FAE26133FFD001770CA /* DomoticzWatch */ = {
+			isa = PBXGroup;
+			children = (
+				01129FAF261340D2001770CA /* Launcher */,
+				01129F8A26133FA4001770CA /* ContentView.swift */,
+				01129F8C26133FA4001770CA /* DomoticzIOSApp.swift */,
+				01129F9026133FA5001770CA /* Assets.xcassets */,
+				01129F9526133FA5001770CA /* Info.plist */,
+			);
+			path = DomoticzWatch;
+			sourceTree = "<group>";
+		};
+		01129FAF261340D2001770CA /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				01129F7E26133FA4001770CA /* Assets.xcassets */,
+				01129F8026133FA4001770CA /* Info.plist */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		01129FD326134222001770CA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				01129F6826133FA3001770CA /* DomoticzIOSTests */,
+				01129F7326133FA3001770CA /* DomoticzIOSUITests */,
+				01129FD926134272001770CA /* DomoticzWatchTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		01129FD926134272001770CA /* DomoticzWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				01129FE3261342BC001770CA /* Info.plist */,
+				01129FDA26134285001770CA /* DomoticzWatchTests.swift */,
+			);
+			path = DomoticzWatchTests;
+			sourceTree = "<group>";
+		};
+		0112A01826134495001770CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01129F5326133FA2001770CA /* DomoticzIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01129FA026133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOS" */;
+			buildPhases = (
+				0108123C26148BE000A12E76 /* SwiftLint */,
+				01129F5026133FA2001770CA /* Sources */,
+				01129F5126133FA2001770CA /* Frameworks */,
+				01129F5226133FA2001770CA /* Resources */,
+				01129F9F26133FA5001770CA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01129F7C26133FA3001770CA /* PBXTargetDependency */,
+			);
+			name = DomoticzIOS;
+			packageProductDependencies = (
+				0112A01926134495001770CA /* DomoticzSwift */,
+			);
+			productName = DomoticzIOS;
+			productReference = 01129F5426133FA2001770CA /* DomoticzIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01129F6426133FA3001770CA /* DomoticzIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01129FA326133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOSTests" */;
+			buildPhases = (
+				01129F6126133FA3001770CA /* Sources */,
+				01129F6226133FA3001770CA /* Frameworks */,
+				01129F6326133FA3001770CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01129F6726133FA3001770CA /* PBXTargetDependency */,
+			);
+			name = DomoticzIOSTests;
+			packageProductDependencies = (
+				0108129A2614915900A12E76 /* Quick */,
+				010812C32614926D00A12E76 /* Nimble */,
+			);
+			productName = DomoticzIOSTests;
+			productReference = 01129F6526133FA3001770CA /* DomoticzIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01129F6F26133FA3001770CA /* DomoticzIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01129FA626133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOSUITests" */;
+			buildPhases = (
+				01129F6C26133FA3001770CA /* Sources */,
+				01129F6D26133FA3001770CA /* Frameworks */,
+				01129F6E26133FA3001770CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01129F7226133FA3001770CA /* PBXTargetDependency */,
+			);
+			name = DomoticzIOSUITests;
+			packageProductDependencies = (
+				010812B2261491D000A12E76 /* Quick */,
+				010812DB2614932C00A12E76 /* Nimble */,
+			);
+			productName = DomoticzIOSUITests;
+			productReference = 01129F7026133FA3001770CA /* DomoticzIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		01129F7826133FA3001770CA /* DomoticzIOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01129F9C26133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOS WatchKit App" */;
+			buildPhases = (
+				01129F7726133FA3001770CA /* Resources */,
+				01129F9B26133FA5001770CA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01129F8826133FA4001770CA /* PBXTargetDependency */,
+			);
+			name = "DomoticzIOS WatchKit App";
+			productName = "DomoticzIOS WatchKit App";
+			productReference = 01129F7926133FA3001770CA /* DomoticzIOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		01129F8426133FA4001770CA /* DomoticzIOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01129F9826133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOS WatchKit Extension" */;
+			buildPhases = (
+				01129F8126133FA4001770CA /* Sources */,
+				01129F8226133FA4001770CA /* Frameworks */,
+				01129F8326133FA4001770CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DomoticzIOS WatchKit Extension";
+			packageProductDependencies = (
+				01E66DEC2613481700E53DA4 /* DomoticzSwift */,
+			);
+			productName = "DomoticzIOS WatchKit Extension";
+			productReference = 01129F8526133FA4001770CA /* DomoticzIOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		01129FDE261342BC001770CA /* DomoticzWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01129FE4261342BC001770CA /* Build configuration list for PBXNativeTarget "DomoticzWatchTests" */;
+			buildPhases = (
+				01129FDB261342BC001770CA /* Sources */,
+				01129FDC261342BC001770CA /* Frameworks */,
+				01129FDD261342BC001770CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomoticzWatchTests;
+			packageProductDependencies = (
+				01E66DEE2613482200E53DA4 /* DomoticzSwift */,
+				010812B4261491D600A12E76 /* Quick */,
+				010812DD2614933000A12E76 /* Nimble */,
+			);
+			productName = DomoticzWatchTests;
+			productReference = 01129FDF261342BC001770CA /* DomoticzWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01129F4C26133FA2001770CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					01129F5326133FA2001770CA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					01129F6426133FA3001770CA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 01129F5326133FA2001770CA;
+					};
+					01129F6F26133FA3001770CA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 01129F5326133FA2001770CA;
+					};
+					01129F7826133FA3001770CA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					01129F8426133FA4001770CA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					01129FDE261342BC001770CA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 01129F4F26133FA2001770CA /* Build configuration list for PBXProject "DomoticzIOSWatchOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01129F4B26133FA2001770CA;
+			packageReferences = (
+				010812992614915900A12E76 /* XCRemoteSwiftPackageReference "Quick" */,
+				010812C22614926D00A12E76 /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
+			productRefGroup = 01129F5526133FA2001770CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01129F5326133FA2001770CA /* DomoticzIOS */,
+				01129F6426133FA3001770CA /* DomoticzIOSTests */,
+				01129F6F26133FA3001770CA /* DomoticzIOSUITests */,
+				01129FDE261342BC001770CA /* DomoticzWatchTests */,
+				01129F7826133FA3001770CA /* DomoticzIOS WatchKit App */,
+				01129F8426133FA4001770CA /* DomoticzIOS WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01129F5226133FA2001770CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F5F26133FA3001770CA /* Preview Assets.xcassets in Resources */,
+				01129F5C26133FA3001770CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F6326133FA3001770CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F6E26133FA3001770CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F7726133FA3001770CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F7F26133FA4001770CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F8326133FA4001770CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F9126133FA5001770CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129FDD261342BC001770CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0108123C26148BE000A12E76 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    cd ..\n    swiftlint\nelse\n    echo \"SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01129F5026133FA2001770CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F5A26133FA2001770CA /* ContentView.swift in Sources */,
+				01129F5826133FA2001770CA /* DomoticzIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F6126133FA3001770CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F6A26133FA3001770CA /* DomoticzIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F6C26133FA3001770CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F7526133FA3001770CA /* DomoticzIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129F8126133FA4001770CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01129F8D26133FA4001770CA /* DomoticzIOSApp.swift in Sources */,
+				01129F8B26133FA4001770CA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01129FDB261342BC001770CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E66DE2261347FE00E53DA4 /* ContentView.swift in Sources */,
+				01129FF3261342F0001770CA /* DomoticzWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01129F6726133FA3001770CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01129F5326133FA2001770CA /* DomoticzIOS */;
+			targetProxy = 01129F6626133FA3001770CA /* PBXContainerItemProxy */;
+		};
+		01129F7226133FA3001770CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01129F5326133FA2001770CA /* DomoticzIOS */;
+			targetProxy = 01129F7126133FA3001770CA /* PBXContainerItemProxy */;
+		};
+		01129F7C26133FA3001770CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01129F7826133FA3001770CA /* DomoticzIOS WatchKit App */;
+			targetProxy = 01129F7B26133FA3001770CA /* PBXContainerItemProxy */;
+		};
+		01129F8826133FA4001770CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01129F8426133FA4001770CA /* DomoticzIOS WatchKit Extension */;
+			targetProxy = 01129F8726133FA4001770CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01129F9626133FA5001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01129F9726133FA5001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		01129F9926133FA5001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DomoticzWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		01129F9A26133FA5001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DomoticzWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		01129F9D26133FA5001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = DomoticzIOS_WatchKit_Extension;
+				INFOPLIST_FILE = DomoticzWatch/Launcher/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		01129F9E26133FA5001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = DomoticzIOS_WatchKit_Extension;
+				INFOPLIST_FILE = DomoticzWatch/Launcher/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		01129FA126133FA5001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DomoticzIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DomoticzIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01129FA226133FA5001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DomoticzIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DomoticzIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01129FA426133FA5001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/DomoticzIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DomoticzIOS.app/DomoticzIOS";
+			};
+			name = Debug;
+		};
+		01129FA526133FA5001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/DomoticzIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DomoticzIOS.app/DomoticzIOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01129FA726133FA5001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/DomoticzIOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DomoticzIOS;
+			};
+			name = Debug;
+		};
+		01129FA826133FA5001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/DomoticzIOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DomoticzIOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01129FE5261342BC001770CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/DomoticzWatchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01129FE6261342BC001770CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/DomoticzWatchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.ms-mobile.DomoticzWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01129F4F26133FA2001770CA /* Build configuration list for PBXProject "DomoticzIOSWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129F9626133FA5001770CA /* Debug */,
+				01129F9726133FA5001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01129F9826133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129F9926133FA5001770CA /* Debug */,
+				01129F9A26133FA5001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01129F9C26133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129F9D26133FA5001770CA /* Debug */,
+				01129F9E26133FA5001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01129FA026133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129FA126133FA5001770CA /* Debug */,
+				01129FA226133FA5001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01129FA326133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129FA426133FA5001770CA /* Debug */,
+				01129FA526133FA5001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01129FA626133FA5001770CA /* Build configuration list for PBXNativeTarget "DomoticzIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129FA726133FA5001770CA /* Debug */,
+				01129FA826133FA5001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01129FE4261342BC001770CA /* Build configuration list for PBXNativeTarget "DomoticzWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01129FE5261342BC001770CA /* Debug */,
+				01129FE6261342BC001770CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		010812992614915900A12E76 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.2;
+			};
+		};
+		010812C22614926D00A12E76 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0108129A2614915900A12E76 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010812992614915900A12E76 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		010812B2261491D000A12E76 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010812992614915900A12E76 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		010812B4261491D600A12E76 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010812992614915900A12E76 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		010812C32614926D00A12E76 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010812C22614926D00A12E76 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		010812DB2614932C00A12E76 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010812C22614926D00A12E76 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		010812DD2614933000A12E76 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 010812C22614926D00A12E76 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		0112A01926134495001770CA /* DomoticzSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DomoticzSwift;
+		};
+		01E66DEC2613481700E53DA4 /* DomoticzSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DomoticzSwift;
+		};
+		01E66DEE2613482200E53DA4 /* DomoticzSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DomoticzSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 01129F4C26133FA2001770CA /* Project object */;
+}
