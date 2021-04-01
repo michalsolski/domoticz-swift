@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Created by Michał Solski on 03/04/2021.
+  
+*/
+
+"login_server_url_error_msg" = "Invalid server address";
+"login_server_url_error_info" = "Type full server address with port and protocol. Fg. http://192.168.1.2:1234";
+"login_server_response_error" = "Unexpected server response";

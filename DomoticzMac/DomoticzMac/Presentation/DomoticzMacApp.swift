@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import DomoticzSwift
 
 @main
 struct DomoticzMacApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

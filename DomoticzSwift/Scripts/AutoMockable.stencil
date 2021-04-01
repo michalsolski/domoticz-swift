@@ -1,0 +1,35 @@
+//To regenerate this file, go to directory "Scripts" and run "generateMocks.sh"
+import Foundation
+import Combine
+@testable import DomoticzSwift
+{% for type in types.protocols|annotated:"AutoMockable" %}
+class {{ type.name }}Mock: NSObject, {{ type.name }} {
+{% for variable in type.allVariables %}
+
+{% if variable.typeName|hasPrefix:"Published"  %}@Published var _{{ variable.name }}: {{ variable.typeName|replace:"Published<",""|replace:">.Publisher","" }}{% if variable.typeName|hasSuffix:"]>.Publisher" %} = []{% else %}{% if variable.typeName|hasSuffix:"?>.Publisher" %}{% else %} = {{ variable.typeName|replace:"Published<",""|replace:">.Publisher","" }}() {% endif %}{% endif %}
+var {{ variable.name }}: {{ variable.typeName }} { $_{{ variable.name }} } {% endif %}
+
+{% if not variable.typeName|hasPrefix:"Published"  %}var {{ variable.name }}: {{ variable.typeName }}{% if not variable.isOptional %} = {{ variable.typeName }}(){% endif %}{% endif %}
+{% endfor %}
+
+{% for method in type.allMethods %}
+//MARK: - {{ method.shortName }}
+{% if not method.returnTypeName.isVoid and not method.shortName == "init" %}var {{ method.shortName }}_returnValue: {{ method.returnTypeName }}{% if not method.returnTypeName.isOptional %} = {{ method.returnTypeName }}(){% else %} = nil{% endif %}{% endif %}
+{% if not method.shortName == "init" %}var {{ method.shortName }}_called = false{% endif %}
+{% if not method.shortName == "init" %}var {{ method.shortName }}_call_count = 0{% endif %}
+{% if method.parameters.count == 1 %}var {{ method.shortName }}_params_{% for param in method.parameters %}{{ param.name|upperFirstLetter }}: ({{ param.typeName.unwrappedTypeName }})?{% endfor %}{% else %}{% if not method.parameters.count == 0 %}var {{ method.shortName }}_params: ({% for param in method.parameters %}{{ param.name }}: {% if param.typeAttributes.escaping %}{{ param.unwrappedTypeName }}{% else %}{{ param.typeName }}{% endif %}{% if not forloop.last %}, {% endif %}{% endfor %})?{% endif %}{% endif %}
+{% if method.throws %} var {{ method.shortName }}_throwable_error: Error? {% endif %}
+
+func {{ method.shortName }}({% for param in method.parameters %}{{ param.argumentLabel }}{% if not param.argumentLabel %}_{% endif %}{% if not param.argumentLabel == param.name %} {{ param.name }}{% endif %}: {{ param.typeName }}{% if not forloop.last %}, {% endif %}{% endfor %}) {% if method.throws %}throws {% endif %} {% if not method.returnTypeName.isVoid %} -> {{ method.returnTypeName }}{% endif %} {
+{% if method.throws %}if {{ method.shortName }}_throwable_error != nil { throw {{ method.shortName }}_throwable_error! } {% endif %}
+{% if not method.shortName == "init" %}{{ method.shortName }}_called = true{% endif %}
+{% if not method.shortName == "init" %}{{ method.shortName }}_call_count += 1{% endif %}
+{%if method.parameters.count == 1 %}{{ method.shortName }}_params_{% for param in method.parameters %}{{ param.name|upperFirstLetter }} = {{ param.name }}{% endfor %}{% else %}{% if not method.parameters.count == 0 %}{{ method.shortName }}_params = ({% for param in method.parameters %}{{ param.name }}: {{ param.name }}{% if not forloop.last%}, {% endif %}{% endfor %}){% endif %}{% if not method.returnTypeName.isVoid %}{% endif %}{% endif %}
+{% if not method.returnTypeName.isVoid and not method.shortName == "init" %}return {{ method.shortName }}_returnValue {% endif %}
+}
+{% endfor %}
+}
+
+
+{% endfor %}
+

@@ -1,4 +1,10 @@
 excluded: # paths to ignore during linting.
   - DerivedData
+  - DomoticzSwift/Tests
 
+disabled_rules:
+ - force_try
+ - force_cast
+ - comment_spacing
+ - trailing_whitespace
 

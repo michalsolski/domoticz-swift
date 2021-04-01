@@ -17,6 +17,7 @@
 		0112A02F26134615001770CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0112A02E26134615001770CA /* Preview Assets.xcassets */; };
 		0112A03B26134615001770CA /* DomoticzMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112A03A26134615001770CA /* DomoticzMacTests.swift */; };
 		0112A04626134615001770CA /* DomoticzMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112A04526134615001770CA /* DomoticzMacUITests.swift */; };
+		01BF9A5726151F17001CDC58 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF9A5626151F17001CDC58 /* LoginView.swift */; };
 		01E66DE1261347E900E53DA4 /* DomoticzSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 01E66DE0261347E900E53DA4 /* DomoticzSwift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		0112A04126134615001770CA /* DomoticzMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomoticzMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0112A04526134615001770CA /* DomoticzMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomoticzMacUITests.swift; sourceTree = "<group>"; };
 		0112A04726134615001770CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BF9A5626151F17001CDC58 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,7 @@
 		0112A02626134614001770CA /* DomoticzMac */ = {
 			isa = PBXGroup;
 			children = (
-				0112A02726134614001770CA /* DomoticzMacApp.swift */,
+				01BF9A5526151F08001CDC58 /* Presentation */,
 				0112A02926134614001770CA /* ContentView.swift */,
 				0112A02B26134615001770CA /* Assets.xcassets */,
 				0112A03026134615001770CA /* Info.plist */,
@@ -141,6 +143,15 @@
 				0112A04726134615001770CA /* Info.plist */,
 			);
 			path = DomoticzMacUITests;
+			sourceTree = "<group>";
+		};
+		01BF9A5526151F08001CDC58 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0112A02726134614001770CA /* DomoticzMacApp.swift */,
+				01BF9A5626151F17001CDC58 /* LoginView.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		01E66DDF261347E900E53DA4 /* Frameworks */ = {
@@ -316,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BF9A5726151F17001CDC58 /* LoginView.swift in Sources */,
 				0112A02A26134614001770CA /* ContentView.swift in Sources */,
 				0112A02826134614001770CA /* DomoticzMacApp.swift in Sources */,
 			);
